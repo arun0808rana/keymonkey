@@ -19,6 +19,9 @@ body {
 
 .test-container {
   font-size: 1.5rem;
+  padding: 1rem;
+  height: 8rem;
+  overflow: hidden;
 }
 .correctlyProcessedWords {
   color: var(--text-secondary);
@@ -37,5 +40,21 @@ body {
   right: 0;
   border-radius: 4px;
   animation-duration: 3s;
+}
 
+.repeat-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+.repeat-btn > img {
+  padding: 2rem 4rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.repeat-btn > img:focus {
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #636363, 0 0 40px #636363,
+    0 0 50px #636363, 0 0 60px #636363, 0 0 70px #636363;
 }
